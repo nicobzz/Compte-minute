@@ -1,0 +1,4 @@
+#!/bin/bash
+
+vim Makefile sources/compteur.c sources/headers/fnsdefs.h sources/headers/struct.h vim-edit
+

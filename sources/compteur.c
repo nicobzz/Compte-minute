@@ -40,6 +40,10 @@ int main( int argc, char **argv){
 	
 		exit(1);
 	}
+	if (*compteur <= 0){
+		printf("idiot\n");
+		exit(2);
+	}
 	initscr();              // Initialise la structure WINDOW et autres paramètres
 	cbreak();
 	keypad(stdscr, TRUE);	// permet de lire les entrées claviers spéciales en une fois( et non trois caractères pour les touches des flèches)
